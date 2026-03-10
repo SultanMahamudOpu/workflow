@@ -1,41 +1,44 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.1">
   <diagram name="Page-1" id="xITOQ6v0dH8wVRHJlRIJ">
-    <mxGraphModel dx="2255" dy="1238" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1804" dy="990" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="_8xuTTHqILLrnsj6Gi7h-1" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d0cee2;strokeColor=#56517e;" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;IBFND Dataset&lt;/font&gt;" vertex="1">
-          <mxGeometry height="150" width="120" x="10" y="130" as="geometry" />
+          <mxGeometry height="150" width="120" x="30" y="130" as="geometry" />
         </mxCell>
-        <mxCell id="_8xuTTHqILLrnsj6Gi7h-3" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;Clean Text&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;Fields&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="90" width="200" x="240" y="160" as="geometry" />
+        <mxCell id="_8xuTTHqILLrnsj6Gi7h-3" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;Clean Text&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 21px; background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;Fields and remove&lt;/span&gt;&lt;div&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;punctuation marks&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="200" x="270" y="160" as="geometry" />
         </mxCell>
         <mxCell id="_8xuTTHqILLrnsj6Gi7h-4" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Remove Stopword, Duplicate &amp;amp; Null&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;value&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="90" width="200" x="490" y="160" as="geometry" />
+          <mxGeometry height="90" width="200" x="470" y="160" as="geometry" />
         </mxCell>
         <mxCell id="_8xuTTHqILLrnsj6Gi7h-5" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Tokenization&lt;/span&gt;" vertex="1">
-          <mxGeometry height="90" width="200" x="720" y="160" as="geometry" />
+          <mxGeometry height="90" width="200" x="870" y="160" as="geometry" />
         </mxCell>
         <mxCell id="_8xuTTHqILLrnsj6Gi7h-6" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Apply TF-IDF,&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;BoW, Word2Vec, GloVe&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="90" width="200" x="950" y="160" as="geometry" />
+          <mxGeometry height="90" width="200" x="1070" y="160" as="geometry" />
         </mxCell>
         <mxCell id="_8xuTTHqILLrnsj6Gi7h-7" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Visualize using WordCloud&amp;nbsp;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="90" width="200" x="1200" y="160" as="geometry" />
+          <mxGeometry height="90" width="200" x="1270" y="160" as="geometry" />
         </mxCell>
         <mxCell id="_8xuTTHqILLrnsj6Gi7h-8" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d0cee2;strokeColor=#56517e;" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;Processed&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;Dataset&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="150" width="120" x="1520" y="130" as="geometry" />
+          <mxGeometry height="150" width="120" x="1600" y="130" as="geometry" />
         </mxCell>
         <mxCell id="_8xuTTHqILLrnsj6Gi7h-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=3;" value="" vertex="1">
-          <mxGeometry height="185" width="1260" x="190" y="112.5" as="geometry" />
+          <mxGeometry height="167.5" width="1315" x="205" y="112.5" as="geometry" />
         </mxCell>
         <mxCell id="_8xuTTHqILLrnsj6Gi7h-12" parent="1" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" value="" vertex="1">
-          <mxGeometry height="70" width="100" x="140" y="170" as="geometry" />
+          <mxGeometry height="70" width="100" x="170" y="170" as="geometry" />
         </mxCell>
         <mxCell id="_8xuTTHqILLrnsj6Gi7h-13" parent="1" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" value="" vertex="1">
-          <mxGeometry height="70" width="100" x="1410" y="170" as="geometry" />
+          <mxGeometry height="70" width="100" x="1480" y="170" as="geometry" />
         </mxCell>
-        <mxCell id="_8xuTTHqILLrnsj6Gi7h-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;Data Preprocessing&lt;/font&gt;" vertex="1">
-          <mxGeometry height="60" width="350" x="670" y="80" as="geometry" />
+        <mxCell id="_8xuTTHqILLrnsj6Gi7h-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" value="&lt;font style=&quot;font-size: 31px;&quot;&gt;Data Preprocessing&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="350" x="687.5" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8Hfamg3pRDK7jKhLSInU-1" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Remove URLs, @,&amp;nbsp; English word,&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;number,&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 20px; background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;HTML tags&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="200" x="670" y="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
